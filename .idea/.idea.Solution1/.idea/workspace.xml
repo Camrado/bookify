@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8ddcc90-4e4a-45a4-907f-bbcddbbac80f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <updated>1717936752705</updated>
       <workItem from="1717936753967" duration="340000" />
       <workItem from="1717937122396" duration="28000" />
-      <workItem from="1717937166186" duration="12939000" />
+      <workItem from="1717937166186" duration="13618000" />
     </task>
     <servers />
   </component>
