@@ -5,7 +5,7 @@ public record Currency {
     public static readonly Currency EUR = new("EUR");
     public static readonly Currency USD = new("USD");
     
-    private string Code { get; init; }
+    public string Code { get; init; }
     
     private Currency(string code) {
         Code = code;
