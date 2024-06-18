@@ -30,6 +30,9 @@ public sealed class Booking : Entity {
         CreatedOnUtc = createdOnUtc;
     }
     
+    private Booking() {
+    }
+    
     public Guid ApartmentId { get; private set; }
     
     public Guid UserId { get; private set; }
