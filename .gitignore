@@ -3,6 +3,7 @@
 
 # Editor directories and files
 .vscode
+.vs
 !.vscode/extensions.json
 .idea
 *.suo
@@ -10,3 +11,5 @@
 *.njsproj
 *.sln
 *.sw?
+
+.containers
