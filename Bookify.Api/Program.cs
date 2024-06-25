@@ -1,4 +1,5 @@
 using Bookify.Api.Extensions;
+using Bookify.Api.OpenApi;
 using Bookify.Application;
 using Bookify.Application.Abstractions.Data;
 using Bookify.Infrastructure;
@@ -21,11 +22,21 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
+builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment()) {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options => {
+        var descriptions = app.DescribeApiVersions();
+
+        foreach (var description in descriptions) {
+            var url = $"/swagger/{description.GroupName}/swagger.json";
+            var name = description.GroupName.ToUpperInvariant();
+            options.SwaggerEndpoint(url, name);
+        }
+    });
     
     // Command for "Add-Migration Create_Database" in Package Manager Console:
     // dotnet ef migrations add Create_Database --project Bookify.Infrastructure --startup-project Bookify.Api
