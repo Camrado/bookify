@@ -21,7 +21,7 @@ services:
     environment:
       POSTGRES_DB: bookify
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: mysecret
+      POSTGRES_PASSWORD: newpassword
     volumes:
       - ./.containers/database:/var/lib/postgresql/data
     ports:
