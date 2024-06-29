@@ -1,8 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=CodeStyle/@EntryIndexedValue">On</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">On</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=SpellingFilter/@EntryIndexedValue">On</s:String>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\IM\AppData\Local\JetBrains\Rider2023.3\resharper-host\temp\Rider\vAny\CoverageData\_Bookify.-566989413\Snapshot\snapshot.utdcvr</s:String>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/EnableInlayHints/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78d0ebd3_002Dc7e8_002D4d60_002Dae3e_002D1553799bbd11/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::3AFC8CDD-A16E-4F1A-AEA8-DA7ACB23511D::net8.0::Bookify.Domain.UnitTests.Users.UserTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3AFC8CDD-A16E-4F1A-AEA8-DA7ACB23511D::net8.0::Bookify.Domain.UnitTests.Bookings.PricingServiceTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3AFC8CDD-A16E-4F1A-AEA8-DA7ACB23511D::net8.0::Bookify.Domain.UnitTests.Bookings.BookingTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::921DA788-8165-4F2B-9DAE-0D32824A0C0C::net8.0::Bookify.Application.UnitTests.Bookings.ReserveBookingTests.Handle_Should_ReturnFailure_When_UserIsNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::921DA788-8165-4F2B-9DAE-0D32824A0C0C::net8.0::Bookify.Application.UnitTests.Bookings.ReserveBookingTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
