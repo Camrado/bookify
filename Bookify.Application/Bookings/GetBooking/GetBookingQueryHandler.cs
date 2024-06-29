@@ -1,6 +1,8 @@
-﻿using Bookify.Application.Abstractions.Data;
+﻿using Bookify.Application.Abstractions.Authentication;
+using Bookify.Application.Abstractions.Data;
 using Bookify.Application.Abstractions.Messaging;
 using Bookify.Domain.Abstractions;
+using Bookify.Domain.Bookings;
 using Dapper;
 
 namespace Bookify.Application.Bookings.GetBooking;
@@ -46,6 +48,6 @@ internal sealed class GetBookingQueryHandler : IQueryHandler<GetBookingQuery, Bo
                 request.BookingId
             });
         
-        return booking;
+        return booking ?? Result.Failure<BookingResponse>(BookingErrors.NotFound);
     }
 }

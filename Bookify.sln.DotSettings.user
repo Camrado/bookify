@@ -1,4 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=766D0E8F_002D70CA_002D49B2_002D972E_002DA678DE31F8E0_002Fd_003A_002Efiles_002Ff_003Abookify_002Drealm_002Dexport_002Ejson/@EntryIndexedValue">ExplicitlyExcluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=CodeStyle/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">On</s:String>
@@ -12,5 +13,9 @@
     &lt;TestId&gt;xUnit::3AFC8CDD-A16E-4F1A-AEA8-DA7ACB23511D::net8.0::Bookify.Domain.UnitTests.Bookings.BookingTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::921DA788-8165-4F2B-9DAE-0D32824A0C0C::net8.0::Bookify.Application.UnitTests.Bookings.ReserveBookingTests.Handle_Should_ReturnFailure_When_UserIsNull&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::921DA788-8165-4F2B-9DAE-0D32824A0C0C::net8.0::Bookify.Application.UnitTests.Bookings.ReserveBookingTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Apartments.SearchApartmentsTests.SearchApartments_Should_ReturnEmptyList_When_DateRangeIsInvalid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Apartments.SearchApartmentsTests.SearchApartments_Should_ReturnApartments_When_DateRangeIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Bookings.GetBookingTests.GetBooking_Should_ReturnFailure_When_BookingIsNotFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Bookings.GetBookingTests.GetBooking_ShouldReturnFailure_WhenBookingIsNotFound&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

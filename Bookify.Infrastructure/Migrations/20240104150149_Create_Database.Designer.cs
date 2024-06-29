@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Bookify.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240618062513_Create_Database")]
+    [Migration("20240104150149_Create_Database")]
     partial class Create_Database
     {
         /// <inheritdoc />
@@ -76,9 +76,9 @@ namespace Bookify.Infrastructure.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("apartment_id");
 
-                    b.Property<DateTime?>("CanceledOnUtc")
+                    b.Property<DateTime?>("CancelledOnUtc")
                         .HasColumnType("timestamp with time zone")
-                        .HasColumnName("canceled_on_utc");
+                        .HasColumnName("cancelled_on_utc");
 
                     b.Property<DateTime?>("CompletedOnUtc")
                         .HasColumnType("timestamp with time zone")
