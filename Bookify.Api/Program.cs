@@ -41,7 +41,7 @@ if (app.Environment.IsDevelopment()) {
     // Command for "Add-Migration Create_Database" in Package Manager Console:
     // dotnet ef migrations add Create_Database --project Bookify.Infrastructure --startup-project Bookify.Api
     // run this command in the root directory of the solution
-    app.ApplyMigrations();
+    // app.ApplyMigrations();
     
     // app.SeedData();
 }

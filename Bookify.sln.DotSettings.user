@@ -4,9 +4,18 @@
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=CodeStyle/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=SpellingFilter/@EntryIndexedValue">On</s:String>
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\IM\AppData\Local\JetBrains\Rider2023.3\resharper-host\temp\Rider\vAny\CoverageData\_Bookify.-566989413\Snapshot\snapshot.utdcvr</s:String>
+	
 	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/EnableInlayHints/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78d0ebd3_002Dc7e8_002D4d60_002Dae3e_002D1553799bbd11/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5131b32f_002D2d99_002D4488_002D82d8_002Dd27144f14caf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Register_Should_ReturnOk_When_RequestIsValid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::B345487D-7E26-4970-A752-B8B5472C72E6::net8.0::Bookify.Api.FunctionalTests.Users.RegisterUserTests.Register_Should_ReturnOk_When_RequestIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B345487D-7E26-4970-A752-B8B5472C72E6::net8.0::Bookify.Api.FunctionalTests.Users.RegisterUserTests.Register_Should_ReturnBadRequest_When_RequestIsInvalid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B345487D-7E26-4970-A752-B8B5472C72E6::net8.0::Bookify.Api.FunctionalTests.Users.LoginUserTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B345487D-7E26-4970-A752-B8B5472C72E6::net8.0::Bookify.Api.FunctionalTests.Users.GetLoggedInUserTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B345487D-7E26-4970-A752-B8B5472C72E6::net8.0::Bookify.Api.FunctionalTests.Users.RegisterUserTests.Register_ShouldReturnOk_WhenRequestIsValid&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78d0ebd3_002Dc7e8_002D4d60_002Dae3e_002D1553799bbd11/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::3AFC8CDD-A16E-4F1A-AEA8-DA7ACB23511D::net8.0::Bookify.Domain.UnitTests.Users.UserTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3AFC8CDD-A16E-4F1A-AEA8-DA7ACB23511D::net8.0::Bookify.Domain.UnitTests.Bookings.PricingServiceTests&lt;/TestId&gt;&#xD;
@@ -17,5 +26,6 @@
     &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Apartments.SearchApartmentsTests.SearchApartments_Should_ReturnApartments_When_DateRangeIsValid&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Bookings.GetBookingTests.GetBooking_Should_ReturnFailure_When_BookingIsNotFound&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::766D0E8F-70CA-49B2-972E-A678DE31F8E0::net8.0::Bookify.Application.IntegrationTests.Bookings.GetBookingTests.GetBooking_ShouldReturnFailure_WhenBookingIsNotFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B345487D-7E26-4970-A752-B8B5472C72E6::net8.0::Bookify.Api.FunctionalTests.Users.RegisterUserTests.Register_Should_ReturnOk_When_RequestIsValid&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
